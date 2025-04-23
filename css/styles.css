@@ -331,7 +331,9 @@ ul {
   justify-content: center;
   gap: 24px;
 }
-
+.team-item-svg {
+  gap: 24px;
+}
 .team-link-svg {
   border-radius: 50%;
   width: 40px;
@@ -470,7 +472,6 @@ ul {
   gap: 16px;
 }
 .team-item-svg {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-link-svg-footer {
   border-radius: 50%;
@@ -481,6 +482,7 @@ ul {
   align-items: center;
   justify-content: center;
   fill: #f4f4fd;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-link-svg-footer:hover,
 .team-link-svg-footer:focus {

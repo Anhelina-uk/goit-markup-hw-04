@@ -325,6 +325,7 @@ ul {
   color: #434455;
   margin-bottom: 8px;
 }
+
 .team-list-svg {
   display: flex;
   align-items: center;
@@ -468,9 +469,13 @@ ul {
   color: #fff;
   margin-bottom: 16px;
 }
-.team-list-svg {
-  gap: 24px;
+.team-list-svg-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
 }
+
 .team-item-svg {
 }
 .team-link-svg-footer {

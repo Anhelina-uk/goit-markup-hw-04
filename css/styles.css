@@ -331,9 +331,7 @@ ul {
   justify-content: center;
   gap: 24px;
 }
-.team-item-svg {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 .team-link-svg {
   border-radius: 50%;
   width: 40px;
@@ -343,6 +341,7 @@ ul {
   align-items: center;
   justify-content: center;
   fill: #f4f4fd;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-link-svg:hover,
 .team-link-svg:focus {
@@ -435,6 +434,7 @@ ul {
 .footer-container {
   display: flex;
   align-items: center;
+  align-items: baseline;
 }
 .footer-container-logo {
   margin-right: 120px;
@@ -465,6 +465,9 @@ ul {
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
+}
+.team-list-svg {
+  gap: 16px;
 }
 .team-link-svg-footer {
   border-radius: 50%;
